@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+    background: radial-gradient(circle, #fff, #ccc);
+}
+#contenedor {
+    height: 600px;
+    width: 750px;
+    background: #9dd2da;
+    margin: 10px auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+
+}
+#puntaje {
+    width: 100px;
+    background: #f1ff92;
+    color: #888e5f;
+    padding: 11px;
+    position: absolute;
+    left: 600px;
+    box-shadow: 0px 4px 0px 0px #9da853;
+}
+#operacion{
+    height: 400px;
+    width: 650px;
+    margin: 50px auto 10px auto;
+    background: white;
+    box-shadow: 0px 4px #535aa8;
+    font-size: 100px;
+    position: relative;
+    overflow: hidden;
+
+}
+#instruccion{
+    width: 450px;
+    height: 50px;
+    background: #b481d9;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px #8153a8;
+}
+
+#inicioreset:Hover{
+    background-color: #9c89f6;
+    color: #fff;
+    box-shadow: 0px 4px #6b54d3;
+}
+
+#inicioreset{
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+}
+
+#vidas{
+    width: 80px;
+    padding: 10px;
+    position: absolute;   
+    background-color: #f1ff92;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0.2);
+    
+}
+#gameover{
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(#f3ca6b, #f3706c);
+    color: #000;
+    text-align: center;
+    cursor: help;
+    text-transform: uppercase;
+    position: absolute;
+    top: 170px;
+    left: 145px;
+    display: none;  /*para mostrar con el codigo*/
+
+}
+.vida {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+#contenedorfrutas{
+    width: 650px;
+    height: 400px;
+    margin: 50px auto 10px auto;
+    background-color: white;
+    box-shadow: 0px 4px #535aa8;
+    position: relative;
+    overflow: hidden;
+   
+}
+.fruta {
+    display: none;
+    position: absolute;
+}
